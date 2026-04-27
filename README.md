@@ -18,9 +18,6 @@ ou
 <p>
 <a>
 <h1>
-
-also
-
 <strong>
 <em>
 
