@@ -1,0 +1,28 @@
+
+* {
+  outline: 2px solid red;
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+body {
+    font-family: 'Instrument Sans', sans-serif;
+    background-color:aliceblue;
+}
+
+.titlepage { 
+    background-color:cornsilk;
+    color: #8B3A2A;
+    height: auto;
+    width: auto;
+    
+    display:flex;
+    text-align: center;
+    
+    
+    padding: 0px auto;
+    border: 20px solid blue;
+    margin: 20px auto;
+
+}
