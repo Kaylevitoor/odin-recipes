@@ -19,9 +19,9 @@ body {
     background-color: #fff;
 }
 figcaption {
-    font-size:x-small;
-    font-weight:700;
-    margin: 50px;
+    font-size: x-small;
+    font-weight: 700;
+    margin: 15px 0 25px 0;
 }
 
 /* 
@@ -47,7 +47,7 @@ section {
 }
 
 nav.breadcrumb {
-    margin-bottom: 20px;
+    margin: 25px 0 30px 0;
 }
 
 nav.breadcrumb a {
@@ -62,15 +62,27 @@ nav.breadcrumb a:hover {
 .titlepage {
     font-family: "Great Vibes", cursive;
     font-weight: 600;
-    font-size: xx-large;
+    font-size: 4rem;
     color: #F5C97A;
     height: auto;
     width: auto;
     display: flex;
     justify-content: center;
-    padding: 0px auto;
-    border: 20px;
-    margin: 50px 20px 20px 20px;
+    padding: 0 20px;
+    margin: 40px 0 30px 0;
+}
+
+.headimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 25px 0;
+}
+
+.headimg img {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
 }
 
 .resume {
@@ -133,8 +145,3 @@ nav.recipes a:hover {
     color: #F5C97A;
 }
 
-.headimg {
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-}
